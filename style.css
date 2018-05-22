@@ -106,23 +106,24 @@ font-family: 'Quattrocento', serif;
 
 /*CV page*/
 .imgCV{
-    width: 80%;
+    width: 100%;
     height: 80%;
+    padding: 0;
 }
 .imgDownload{
     display: block;
     bottom: 60px;
-    width: 100%;
+    width: 100%
     
 }
 
 .left{
     float: left;
-    width: 78%;
+    width: 88%;
 }
 
 .right{
-    margin-top: 98%;
+    margin-top: 99%;
     float: right;
     width: 10%;
 }
@@ -139,8 +140,8 @@ footer{
 
 .allFooterimg{
     position: absolute;
-    margin-left: 40%;
-    margin-top: 40px;
+    margin-left: 50%;
+    margin-top: 50px;
     transform: translate(-50%, -50%);
 }
 
