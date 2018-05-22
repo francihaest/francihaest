@@ -106,9 +106,8 @@ font-family: 'Quattrocento', serif;
 
 /*CV page*/
 .imgCV{
-    width: 100%;
+    width: 80%;
     height: 80%;
-    padding: 0;
 }
 .imgDownload{
     display: block;
