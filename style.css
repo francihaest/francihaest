@@ -93,7 +93,7 @@ nav li a:hover{
 /*main*/
 .main {
     padding: 2% 15%;
-    height: 60vh;
+/*    height: 60vh;*/
     display: block;
     background-color: white;
 font-family: 'Quattrocento', serif;
@@ -104,6 +104,29 @@ font-family: 'Quattrocento', serif;
     color: dimgrey;
 }
 
+/*CV page*/
+.imgCV{
+    width: 100%;
+    height: 80%;
+    padding: 0;
+}
+.imgDownload{
+    display: block;
+    bottom: 60px;
+    width: 100%;
+    
+}
+
+.left{
+    float: left;
+    width: 78%;
+}
+
+.right{
+    margin-top: 98%;
+    float: right;
+    width: 10%;
+}
 
 /*footer*/
 footer{
@@ -115,6 +138,13 @@ footer{
     border-top: 2px solid rgba(0, 0, 0, 0.12);
 }
 
+.allFooterimg{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 40px;
+    transform: translate(-50%, -50%);
+}
+
 /*iconfinder*/
 .imgf{
     color: pink;
@@ -123,6 +153,8 @@ footer{
     border-radius: 50%;
     border: 3px solid #ffc0cb;
     position: relative;
+    display: inline-block;
+    margin-left: 50px;
 }
 
 .imgf:hover{
@@ -136,4 +168,3 @@ footer{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
