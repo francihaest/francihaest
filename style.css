@@ -4,7 +4,7 @@ body {
     font-family: 'Quattrocento Sans', sans-serif;
     margin: 0;
     width: 80%;
-    box-shadow: 0 2px 2px rgba(199, 174, 152, 0.3);
+/*    box-shadow: 0 0px 0px rgba(199, 174, 152, 0.3);*/
     background-color: white;
     width: 100%;
     
@@ -93,7 +93,7 @@ nav li a:hover{
 /*main*/
 .main {
     padding: 2% 15%;
-    height: 70vh;
+    height: 60vh;
     display: block;
     background-color: white;
 font-family: 'Quattrocento', serif;
@@ -103,3 +103,37 @@ font-family: 'Quattrocento', serif;
 .active {
     color: dimgrey;
 }
+
+
+/*footer*/
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border-top: 2px solid rgba(0, 0, 0, 0.12);
+}
+
+/*iconfinder*/
+.imgf{
+    color: pink;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid #ffc0cb;
+    position: relative;
+}
+
+.imgf:hover{
+   cursor: pointer;
+}
+
+.imgf img{
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
