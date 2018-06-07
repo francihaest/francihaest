@@ -104,6 +104,69 @@ font-family: 'Quattrocento', serif;
     color: dimgrey;
 }
 
+/*DLR page*/
+.matrix{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.matrix tr:nth-child(even){
+    height: 80px;
+    vertical-align: top;
+}
+
+.matrix tr:nth-child(odd) td:nth-child(1){
+    vertical-align: top;
+}
+.skill30{
+    height: 20px;
+    margin-top: 5px;
+    border: 1px solid pink;
+    border-radius: 7px;
+    background: linear-gradient(to right, pink 30%, white 0%);
+}
+
+.skill50{
+    height: 20px;
+    margin-top: 5px;
+    border: 1px solid pink;
+    border-radius: 7px;
+    background: linear-gradient(to right, pink 50%, white 0%);
+}
+
+
+.skill90{
+    height: 20px;
+    margin-top: 5px;
+    border: 1px solid pink;
+    border-radius: 7px;
+    background: linear-gradient(to right, pink 90%, white 0%);
+}
+
+.skill80{
+    height: 20px;
+    margin-top: 5px;
+    border: 1px solid pink;
+    border-radius: 7px;
+    background: linear-gradient(to right, pink 80%, white 0%);
+}
+
+.skill60{
+    height: 20px;
+    margin-top: 5px;
+    border: 1px solid pink;
+    border-radius: 7px;
+    background: linear-gradient(to right, pink 60%, white 0%);
+}
+
+.skill70{
+    height: 20px;
+    margin-top: 5px;
+    border: 1px solid pink;
+    border-radius: 7px;
+    background: linear-gradient(to right, pink 70%, white 0%);
+}
+
 /*CV page*/
 .imgCV{
     width: 100%;
@@ -128,6 +191,15 @@ font-family: 'Quattrocento', serif;
     width: 10%;
 }
 
+/*Portfolio page*/
+.portpic{
+    width: 80%;
+    display: block;
+    margin: auto;
+   box-shadow: 0px 0px 15px 0.5px #e2dddd;
+    border-radius: 3px;
+    
+}
 /*footer*/
 footer{
     position: fixed;
